@@ -69,4 +69,20 @@ function getPlayerChoice(){
     }
 }
 
+function reStart(){
+    let input = prompt("Do you want to play again? Enter (yes) or (no)");
+    let answer = input.toLowerCase();
+    if (answer === "yes"){
+        computerScore = 0
+        playerScore = 0
+        console.log("Game restarted.")
+        checkScores()
+    } else if (answer === "no"){
+        console.log("Game ended.")
+    } else {
+        console.log("Invalid Input.")
+        reStart()
+    } 
+}
+
 checkScores()
