@@ -37,8 +37,10 @@ function playRound(){
 function checkScores(){
     if (computerScore === 5){
         console.log("The computer has won the game!!")
+        reStart()
     } else if (playerScore === 5){
         console.log("The player has won the game!!")
+        reStart()
     } else {
         playRound()
     }
