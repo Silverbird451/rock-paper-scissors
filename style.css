@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+img {
+    width: 155px;
+    height: 155px;
+}
+
+button {
+    margin: 0;
+    background-color: #373738 ;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+.header {
+    display: flex;
+    background-color: #373738;
+    justify-content: center;
+    margin: 0px;
+}
+
+.title {
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    background-color: #232225;
+}
+
+.objective {
+    align-self: center;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 12px;
+}
+
+.roundresult {
+    align-self: center;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: -10px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+}
+
+.playerscr {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.computerscr {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.score {
+    color: #ffffff;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.restart {
+    background-color: #0e770e;
+    width: 100px;
+    height: 60px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    align-self: center;
+    margin-top: -20px;
+}
+
+.footer {
+    display: flex;
+    background-color: #373738;
+    justify-content: center;
+}
+
+.titlefoot {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
